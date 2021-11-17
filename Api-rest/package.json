@@ -1,0 +1,22 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubensOliveira97/API-REST-Node.Js.git"
+  },
+  "author": "Rubens Moreno Alves de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RubensOliveira97/API-REST-Node.Js/issues"
+  },
+  "homepage": "https://github.com/RubensOliveira97/API-REST-Node.Js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
