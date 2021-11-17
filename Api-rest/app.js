@@ -1,14 +1,9 @@
 import express from 'express';
 const app = express();
+import * as rotaProdutos from './routes/produtos.js';
 
+app.use('/produtos', rotaProdutos)
 
-app.use((req, res, next)=>{
-
-    res.status(200).send({
-        mensagem:'ok ok '
-
-    });
-});
 
 
 export default app;
