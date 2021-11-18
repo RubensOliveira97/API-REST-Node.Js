@@ -1,9 +1,10 @@
-import express from 'express';
+const express = require('express');
+const rotaProdutos = require('./routes/produtos.js');
 const app = express();
-import * as rotaProdutos from './routes/produtos.js';
+
 
 app.use('/produtos', rotaProdutos)
 
 
 
-export default app;
+module.exports = app;
