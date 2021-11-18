@@ -33,4 +33,19 @@ router.get('/:id_produto',(req, res, next)=>{
 })
 
 
+router.delete('/',(req, res, next)=>{
+
+    res.status(201).send({
+        mensagem:'usando DELETE nos produtos'
+    })
+})
+
+router.patch('/',(req,res,next)=>{
+
+    res.status(200).send({
+        mensagem:"usando PATCH"
+    })
+})
+
+
 module.exports = router;
